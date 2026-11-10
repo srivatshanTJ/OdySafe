@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Shield Outer Glow / Border -->
+    <path
+        android:pathData="M54,24 C68,24 78,28 80,34 C80,56 68,74 54,84 C40,74 28,56 28,34 C30,28 40,24 54,24 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#DDF4EC"
+        android:fillColor="#1F087F8C" />
+
+    <!-- Shield Inner Solid Body -->
+    <path
+        android:pathData="M54,28 C65,28 73,31 75,36 C75,54 65,68 54,77 C43,68 33,54 33,36 C35,31 43,28 54,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="28"
+                android:endX="54"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#087F8C" android:offset="0.0" />
+                <item android:color="#065F69" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Location Pin Shape in center -->
+    <path
+        android:pathData="M54,37 C48.5,37 44,41.5 44,47 C44,53.5 54,65 54,65 C54,65 64,53.5 64,47 C64,41.5 59.5,37 54,37 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Compass / Cross Center in Pin -->
+    <path
+        android:pathData="M54,42 C51.24,42 49,44.24 49,47 C49,49.76 51.24,52 54,52 C56.76,52 59,49.76 59,47 C59,44.24 56.76,42 54,42 Z"
+        android:fillColor="#087F8C" />
+
+    <!-- Core Dot / Star Center -->
+    <path
+        android:pathData="M54,45.5 L55,47 L56.5,47 L55.3,47.9 L55.7,49.4 L54,48.4 L52.3,49.4 L52.7,47.9 L51.5,47 L53,47 Z"
+        android:fillColor="#DDF4EC" />
+</vector>

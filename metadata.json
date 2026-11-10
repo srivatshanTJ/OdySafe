@@ -1,0 +1,6 @@
+{
+  "name": "Odysafe",
+  "description": "Intelligent travel safety companion across India with destination discovery, route planning, safety advisories, nearby emergency services, trusted location sharing, and emergency assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

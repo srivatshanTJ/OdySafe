@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="12"
+                android:startY="12"
+                android:endX="96"
+                android:endY="96"
+                android:type="linear">
+                <item android:color="#1A3447" android:offset="0.0" />
+                <item android:color="#142B3B" android:offset="0.5" />
+                <item android:color="#0D1E2A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Subtle radar/compass rings for travel context -->
+    <path
+        android:strokeColor="#1A087F8C"
+        android:strokeWidth="1.2"
+        android:pathData="M54,20 A34,34 0 1,1 53.9,20 Z" />
+    <path
+        android:strokeColor="#10DDF4EC"
+        android:strokeWidth="1"
+        android:pathData="M54,32 A22,22 0 1,1 53.9,32 Z" />
+</vector>
